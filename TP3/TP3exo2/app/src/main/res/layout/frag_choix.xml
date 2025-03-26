@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/TVLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVLogin"/>
+        <EditText
+            android:id="@+id/EditLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="@string/EditLogin"/>
+
+        <TextView
+            android:id="@+id/TVmdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVmdp"/>
+        <EditText
+            android:id="@+id/Editmdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="@string/Editmdp"/>
+
+        <TextView
+            android:id="@+id/TVNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVNom"/>
+        <EditText
+            android:id="@+id/EditNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="@string/EditNom"/>
+
+        <TextView
+            android:id="@+id/TVPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVPrenom"/>
+        <EditText
+            android:id="@+id/EditPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="@string/EditPrenom"/>
+
+        <TextView
+            android:id="@+id/TVDateNaissance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVDateNaissance"/>
+        <EditText
+            android:id="@+id/EditDateNaissance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="@string/EditDateNaissance"/>
+
+        <TextView
+            android:id="@+id/TVEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVEmail"/>
+        <EditText
+            android:id="@+id/EditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            android:padding="16dp"
+            android:hint="@string/EditEmail"/>
+
+        <TextView
+            android:id="@+id/TVNumTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVNumTel"/>
+        <EditText
+            android:id="@+id/EditNumTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:padding="16dp"
+            android:inputType="phone"
+            android:hint="@string/EditNumTel"/>
+        <TextView
+            android:id="@+id/TVChoix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/TVChoix"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxMusique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxMusique" />
+
+        <CheckBox
+            android:id="@+id/checkBoxLecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxLecture" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxSport" />
+
+        <CheckBox
+            android:id="@+id/checkBoxArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxArt" />
+
+        <CheckBox
+            android:id="@+id/checkBoxInformatique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxInformatique" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxMaths" />
+
+        <CheckBox
+            android:id="@+id/checkBoxChats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxChats" />
+
+
+        <Button
+            android:id="@+id/button_Soumettre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button_Soumettre" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

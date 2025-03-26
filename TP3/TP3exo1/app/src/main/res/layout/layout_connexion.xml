@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id ="@+id/TVconnexionLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/TVconnexionLogin"/>
+
+    <EditText
+        android:id ="@+id/EditconnexionLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/EditconnexionLogin"/>
+
+    <TextView
+        android:id ="@+id/TVconnexionMdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/TVconnexionMdp"/>
+
+    <EditText
+        android:id ="@+id/EditconnexionMdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/EditconnexionMdp"/>
+
+    <Button
+        android:id="@+id/button_Soumettre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_Soumettre" />
+
+
+</LinearLayout>

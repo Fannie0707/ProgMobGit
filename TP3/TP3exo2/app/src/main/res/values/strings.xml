@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TP3exo1</string>
+
+    <string name="EditNom">Nom</string>
+    <string name="EditPrenom">Prenom</string>
+    <string name="EditDateNaissance">Date de Naissance</string>
+    <string name="EditEmail">Email</string>
+    <string name="EditNumTel">Numéro de téléphone</string>
+    <string name="EditLogin">Login</string>
+    <string name="Editmdp">Mot De Passe</string>
+    <string name="TVNom">Nom</string>
+    <string name="TVPrenom">Prenom</string>
+    <string name="TVDateNaissance">Date de Naissance</string>
+    <string name="TVEmail">Email</string>
+    <string name="TVNumTel">Numéro de téléphone</string>
+    <string name="TVInteret">Interet</string>
+    <string name="TVLogin">Login</string>
+    <string name="TVmdp">Mot De Passe</string>
+
+    <string name="TVChoix">Veuillez cocher vos centres d’intérêt parmi les choix proposés</string>
+    <string name="checkBoxMusique">Musique</string>
+    <string name="checkBoxLecture">Lecture</string>
+    <string name="checkBoxSport">Sport</string>
+    <string name="checkBoxArt">Art</string>
+    <string name="checkBoxInformatique">Informatique</string>
+    <string name="checkBoxMaths">Mathématique</string>
+    <string name="checkBoxChats">Chats</string>
+
+
+    <string name="button_Soumettre">Soumettre</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id ="@+id/creneau1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau1"/>
+
+    <EditText
+        android:id ="@+id/Editcreneau1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau1"/>
+
+    <TextView
+        android:id ="@+id/creneau2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau2"/>
+
+    <EditText
+        android:id ="@+id/Editcreneau2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau2"/>
+
+    <TextView
+        android:id ="@+id/creneau3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau3"/>
+
+    <EditText
+        android:id ="@+id/Editcreneau3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau3"/>
+
+    <TextView
+        android:id ="@+id/creneau4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau4"/>
+
+    <EditText
+        android:id ="@+id/Editcreneau4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "@string/creneau4"/>
+
+    <Button
+        android:id="@+id/button_Soumettre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_Soumettre" />
+
+
+
+
+</LinearLayout>
