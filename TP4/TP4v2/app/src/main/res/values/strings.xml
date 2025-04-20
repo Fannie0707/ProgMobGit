@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TP4</string>
+    <string name="text_fichier">Contenu du fichier strings</string>
+
+
+    <string name="TVnom">Nom</string>
+    <string name="TVprenom">Prénom</string>
+    <string name="TVweb_perso">Page web personnelle</string>
+    <string name="TV_linkedin_perso">LinkedIn personnel</string>
+    <string name="TV_web_entreprise">Page web entreprise</string>
+    <string name="TV_linkedin_entreprise">LinkedIn entreprise</string>
+
+    <string name="ETnom">Entrez votre nom</string>
+    <string name="ETprenom">Entrez votre prénom</string>
+    <string name="ETweb_perso">https://votre-site.com</string>
+    <string name="ETlinkedin_perso">https://linkedin.com/in/votre-profil</string>
+    <string name="ETweb_entreprise">https://entreprise.com</string>
+    <string name="ETlinkedin_entreprise">https://linkedin.com/company/entreprise</string>
+
+    <string name="BTNvalider">Valider</string>
+    <string name="BTNannuler">Annuler</string>
+
+</resources>
