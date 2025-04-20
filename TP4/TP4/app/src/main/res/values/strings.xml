@@ -10,7 +10,7 @@
     <string name="TV_web_entreprise">Page web entreprise</string>
     <string name="TV_linkedin_entreprise">LinkedIn entreprise</string>
 
-    <!-- Hints -->
+
     <string name="ETnom">Entrez votre nom</string>
     <string name="ETprenom">Entrez votre prénom</string>
     <string name="ETweb_perso">https://votre-site.com</string>
@@ -18,7 +18,7 @@
     <string name="ETweb_entreprise">https://entreprise.com</string>
     <string name="ETlinkedin_entreprise">https://linkedin.com/company/entreprise</string>
 
-    <!-- Boutons -->
+
     <string name="BTNvalider">Valider</string>
     <string name="BTNannuler">Annuler</string>
 

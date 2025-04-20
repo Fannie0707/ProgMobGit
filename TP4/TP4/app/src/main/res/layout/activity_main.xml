@@ -9,7 +9,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Nom -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,7 +19,6 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName" />
 
-        <!-- Prénom -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,7 +30,6 @@
             android:inputType="textPersonName"
             android:hint="@string/ETnom"/>
 
-        <!-- Page web personnelle -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +41,6 @@
             android:inputType="textUri"
             android:hint="@string/ETweb_perso"/>
 
-        <!-- LinkedIn personnel -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,7 +52,6 @@
             android:inputType="textUri"
             android:hint="@string/ETlinkedin_perso"/>
 
-        <!-- Page web entreprise -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,7 +63,6 @@
             android:inputType="textUri"
             android:hint="@string/ETweb_entreprise"/>
 
-        <!-- LinkedIn entreprise -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +74,6 @@
             android:inputType="textUri"
             android:hint="@string/ETlinkedin_entreprise"/>
 
-        <!-- Boutons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
